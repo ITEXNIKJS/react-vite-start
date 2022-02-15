@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+
+@layer base {
+  @font-face {
+    font-family: "Ashtakov";
+    src: local("Ashtakov"), url(./assets/fonts/Astakhov.ttf) format("ttf");
+  }
+}
+
+@tailwind utilities;
